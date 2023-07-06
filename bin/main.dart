@@ -1,6 +1,6 @@
- import 'package:getx/get.dart' as getx;
+ import 'package:getx/get.dart';
 
 void main(List<String>? arguments)async{
  print("Hello Mohit G");
- await get(arguments);
+  get(arguments);
 }
