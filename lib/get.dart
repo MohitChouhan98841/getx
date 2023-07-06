@@ -4,7 +4,7 @@ import 'create_get.dart';
 import 'init_get.dart';
  //Todo command => dart compile exe init_get.dart
 void main(List<String>? arguments)async{
- await get(arguments);
+  get(arguments);
 }
 void get(List<String>? arguments)async{
   if((arguments?.length??0)!=0){
